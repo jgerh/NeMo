@@ -88,7 +88,7 @@ deploy new generative AI models by leveraging existing code and
 pre-trained model checkpoints.
 
 For technical documentation, please see the [NeMo Framework User
-Guide](https://docs.nvidia.com/nemo-framework/user-guide/latest/overview).
+Guide](https://docs.nvidia.com/nemo-framework/user-guide/latest/overview.html).
 
 ## What's New in NeMo 2.0
 
