@@ -9,7 +9,7 @@
 
 # **NVIDIA NeMo Framework**
 
-### <a href=https://docs.nvidia.com/nemo-framework/user-guide/latest/nemo-2.0/index.html>User Guide</a> | <a href=https://developer.nvidia.com/blog/tag/nemo/>Blog</a> | <a href=https://docs.nvidia.com/nemo-framework/user-guide/latest/playbooks/index.html>Tutorials</a> | <a href=https://www.nvidia.com/en-us/ai-data-science/products/nemo/>Website</a>
+### <a href=https://docs.nvidia.com/nemo-framework/user-guide/latest/overview.html>User Guide</a> | <a href=https://docs.nvidia.com/nemo-framework/user-guide/latest/playbooks/index.html>Tutorials</a>  |  <a href=https://developer.nvidia.com/blog/tag/nemo/>Technical Blog</a> | <a href=https://www.nvidia.com/en-us/ai-data-science/products/nemo/>Website</a>
 
 ## Latest News
 
@@ -19,27 +19,8 @@
       We've released NeMo 2.0, an update on the NeMo Framework which prioritizes modularity and ease-of-use. Please refer to the <a href=https://docs.nvidia.com/nemo-framework/user-guide/latest/nemo-2.0/index.html>NeMo Framework User Guide</a> to get started.
     </details>
   </details>
-
 <details open>
   <summary><b>Large Language Models and Multimodal Models</b></summary>
-      <details>
-      <summary>
-        <a href="https://docs.nvidia.com/nemo-framework/user-guide/latest/llms/llama/index.html#new-llama-3-1-support for more information/">
-        New Llama 3.1 Support
-        </a> (2024-07-23)
-      </summary>
-        The NeMo Framework now supports training and customizing the Llama 3.1 collection of LLMs from Meta.
-      <br><br>
-    </details>
-    <details>
-      <summary>
-        <a href="https://developer.nvidia.com/blog/mastering-llm-techniques-data-preprocessing/">
-          Mastering LLM Techniques: Data Preprocessing
-        </a> (2024-11-13)
-      </summary>
-        LLMs are transforming industries by automating routine tasks and enhancing efficiency. However, achieving high accuracy with LLMs is challenging due to their reliance on high-quality data. Issues like poor data quality, duplicates, PII, and toxic content can hinder model performance. This post explores data processing techniques and best practices, highlighting the role of NVIDIA NeMo Curator in addressing these challenges.
-      <br><br>
-    </details>
     <details>
       <summary>
         <a href="https://developer.nvidia.com/blog/state-of-the-art-multimodal-generative-ai-model-development-with-nvidia-nemo/">
@@ -49,24 +30,6 @@
         NVIDIA has expanded NeMo to support the entire pipeline for developing multimodal models. NeMo simplifies the curation of high-quality visual data, accelerates training with efficient tokenizers and parallelism techniques, and reconstructs high-quality visuals during inference. NVIDIA NeMo Curator streamlines data curation, reducing total cost of ownership and speeding up time-to-market for multimodal generative AI models.
       <br><br>
     </details>
-    <details>
-      <summary>
-        <a href="https://developer.nvidia.com/blog/three-building-blocks-for-creating-ai-virtual-assistants-for-customer-service-with-an-nvidia-nim-agent-blueprint/">
-          Three Building Blocks for Creating AI Virtual Assistants for Customer Service with an NVIDIA AI Blueprint
-        </a> (2024-10-23)
-      </summary>
-        This post explains how developers can use the NVIDIA AI Blueprint for AI virtual assistants to scale operations with generative AI. By utilizing the provided information and sample code, businesses can enhance customer service while maintaining data integrity and governance. The blueprint helps teams improve existing systems or create new ones, ensuring efficient and meaningful customer interactions.
-      <br><br>
-    </details>
-    <details>
-      <summary>
-        <a href="https://developer.nvidia.com/blog/train-highly-accurate-llms-with-the-zyda-2-open-5t-token-dataset-processed-with-nvidia-nemo-curator/">
-          Train Highly Accurate LLMs with the Zyda-2 Open 5T-Token Dataset Processed with NVIDIA NeMo Curator
-        </a> (2024-10-15)
-      </summary>
-        Open-source datasets have democratized access to high-quality data, enabling developers and researchers to train advanced generative AI models. Zyphra, in collaboration with the NVIDIA NeMo Curator team, has developed Zyda-2, a high-quality pretraining dataset with 5 trillion tokens in English. This dataset, five times larger than Zyda-1, covers a wide range of topics and domains, ensuring diversity and quality for training robust models like Zamba.
-      <br><br>
-     </details>
      <details>
       <summary>
         <a href="https://aws.amazon.com/blogs/machine-learning/accelerate-your-generative-ai-distributed-training-workloads-with-the-nvidia-nemo-framework-on-amazon-eks/">
@@ -78,15 +41,6 @@
      </details>
      <details>
       <summary>
-        <a href="https://aws.amazon.com/blogs/machine-learning/accelerate-your-generative-ai-distributed-training-workloads-with-the-nvidia-nemo-framework-on-amazon-eks/">
-          Advanced RAG Techniques for Telco O-RAN Specifications Using NVIDIA NIM Microservices
-        </a> (2024-10-10)
-      </summary>
-        Mobile communication standards ensure interoperability between networks and devices from different vendors, but managing their complexity is challenging. Generative AI can automate the interpretation and application of these standards, saving time and effort. A chatbot demo for O-RAN standards showcases this capability, using NVIDIA NIM microservices and retrieval-augmented generation (RAG) to handle complex queries and workflows, demonstrating the transformative potential of generative AI in telecommunications.
-     <br><br>
-     </details>
-     <details>
-      <summary>
         <a href="https://developer.nvidia.com/blog/mistral-nemo-minitron-8b-foundation-model-delivers-unparalleled-accuracy/">
           Mistral-NeMo-Minitron 8B Model Delivers Unparalleled Accuracy
         </a> (2024-10-08)
@@ -94,44 +48,7 @@
         NVIDIA and Mistral AI recently introduced Mistral NeMo 12B, a state-of-the-art large language model that outperforms similarly sized models on various benchmarks. They also announced Mistral-NeMo-Minitron 8B, an advanced open-access model known for its accuracy on nine popular benchmarks. This model was created by width-pruning the Mistral NeMo 12B base model and retraining it using knowledge distillation, a method proven effective in previous NVIDIA models.
        <br><br>
      </details>
-     <details>
-      <summary>
-        <a href="https://developer.nvidia.com/blog/deploying-accelerated-llama-3-2-from-the-edge-to-the-cloud/">
-          Deploying Accelerated Llama 3.2 from the Edge to the Cloud
-        </a> (2024-09-25)
-      </summary>
-        NVIDIA is optimizing the Llama 3.2 collection to deliver high throughput and low latency across millions of GPUs, from data centers to local workstations and edge devices. This collection includes vision language models (VLMs), small language models (SLMs), and an updated Llama Guard model with vision support. Paired with NVIDIA's accelerated computing platform, Llama 3.2 offers new capabilities and optimizations for generative AI, with detailed hardware and software optimizations, customizations, and ease of deployment.
-      <br><br>
-     </details>
-     <details>
-      <summary>
-        <a href="https://developer.nvidia.com/blog/accelerating-leaderboard-topping-asr-models-10x-with-nvidia-nemo/">
-          Accelerating Leaderboard-Topping ASR Models 10x with NVIDIA NeMo
-        </a> (2024-09-24)
-      </summary>
-        NVIDIA NeMo has developed industry-leading automatic speech recognition (ASR) models, topping the Hugging Face Open ASR Leaderboard. These models optimize both speed and accuracy. NVIDIA boosted the inference speed of NeMo ASR models by up to 10x through enhancements like autocasting tensors to bfloat16, the label-looping algorithm, and CUDA Graphs in NeMo 2.0.
-      <br><br>
-     </details>
-     <details>
-      <summary>
-        <a href="https://developer.nvidia.com/blog/streamlining-data-processing-for-domain-adaptive-pretraining-with-nvidia-nemo-curator/">
-          Streamlining Data Processing for Domain Adaptive Pretraining with NVIDIA NeMo Curator
-        </a> (2024-09-10)
-      </summary>
-        Domain-adaptive pretraining (DAPT) enhances large language models (LLMs) for specific domains, improving their performance on specialized tasks. NVIDIA's ChipNeMo models, designed for industrial chip design, are built by further pretraining Llama 2 models on both proprietary and public domain-specific data. The post details how to curate a training dataset using the ChipNeMo dataset and NVIDIA NeMo Curator.
-     <br><br>
-     </details>
-     <details>
-      <summary>
-        <a href="https://aws.amazon.com/blogs/machine-learning/accelerate-your-generative-ai-distributed-training-workloads-with-the-nvidia-nemo-framework-on-amazon-eks/">
-        Post-Training Quantization of LLMs with NVIDIA NeMo and NVIDIA TensorRT Model Optimizer
-        </a> (2024-09-10)
-      </summary>
-        As LLMs grow, efficient deployment becomes crucial due to rising serving costs. Post-training quantization (PTQ) helps reduce these costs by minimizing computational and memory needs. NVIDIA NeMo implements PTQ using the NVIDIA TensorRT Model Optimizer and TensorRT-LLM, optimizing LLM inference on GPUs. The post showcases accuracy and performance results for quantized Llama 3 models.
-      <br><br>
-    </details>
 </details>
-
 <details open>
   <summary><b>Speech Recognition</b></summary>
   <details>
@@ -153,6 +70,10 @@
         BigVGAN is an open-source neural vocoder that synthesizes audio waveforms from Mel spectrograms. It uses a fully convolutional architecture with upsampling and residual dilated convolution layers. A key feature is the anti-aliased multiperiodicity composition (AMP) module, which generates high-frequency and periodic sound waves using a periodic activation function called Snake and anti-aliasing filters to reduce artifacts. BigVGAN is available as open source through <a href="https://github.com/NVIDIA/BigVGAN/"> NVIDIA/BigVGAN on GitHub</a>.
       <br><br>
     </details>
+    <details open>
+  <summary><b>Technical Blog</b></summary>
+    To stay updated on the latest developments in AI and NVIDIA's advancements with NeMo, please see the <a href=https://developer.nvidia.com/blog/tag/nemo>Technical Blog</a>. It covers a wide range of topics, including advancements in multimodal generative AI, speech recognition, and model development techniques. 
+    </details>
 </details>
 <!-- markdownlint-enable -->
 
@@ -167,7 +88,7 @@ deploy new generative AI models by leveraging existing code and
 pre-trained model checkpoints.
 
 For technical documentation, please see the [NeMo Framework User
-Guide](https://docs.nvidia.com/nemo-framework/user-guide/latest/playbooks/index.html).
+Guide](https://docs.nvidia.com/nemo-framework/user-guide/latest/overview).
 
 ## What's New in NeMo 2.0
 
@@ -186,11 +107,12 @@ Overall, these enhancements make NeMo 2.0 a powerful, scalable, and user-friendl
 
 ### Get Started with NeMo 2.0
 
-- Refer to the [Quickstart](https://docs.nvidia.com/nemo-framework/user-guide/latest/nemo-2.0/quickstart.html) for examples of using NeMo-Run to launch NeMo 2.0 experiments locally and on a slurm cluster.
+- Refer to the [Quickstart](https://docs.nvidia.com/nemo-framework/user-guide/latest/nemo-2.0/quickstart.html) for examples of using NeMo-Run to launch NeMo 2.0 experiments locally and on a Slurm cluster.
 - For more information about NeMo 2.0, see the [NeMo Framework User Guide](https://docs.nvidia.com/nemo-framework/user-guide/latest/nemo-2.0/index.html).
 - [NeMo 2.0 Recipes](https://github.com/NVIDIA/NeMo/blob/main/nemo/collections/llm/recipes) contains additional examples of launching large-scale runs using NeMo 2.0 and NeMo-Run.
 - For an in-depth exploration of the main features of NeMo 2.0, see the [Feature Guide](https://docs.nvidia.com/nemo-framework/user-guide/latest/nemo-2.0/features/index.html#feature-guide).
 - To transition from NeMo 1.0 to 2.0, see the [Migration Guide](https://docs.nvidia.com/nemo-framework/user-guide/latest/nemo-2.0/migration/index.html#migration-guide) for step-by-step instructions.
+- For information on using optional packages with NeMo, refer to [Best Practices for NeMo Developers](https://docs.nvidia.com/nemo-framework/user-guide/latest/best-practices.html).
 
 ## LLMs and MMs Training, Alignment, and Customization
 
@@ -252,7 +174,7 @@ training on a specific cluster.
 
 To get started quickly with the NeMo Framework Launcher, please see the
 [NeMo Framework
-Playbooks](https://docs.nvidia.com/nemo-framework/user-guide/latest/playbooks/index.html).
+Tutorials](https://docs.nvidia.com/nemo-framework/user-guide/latest/playbooks/index.html).
 The NeMo Framework Launcher does not currently support ASR and TTS
 training, but it will soon.
 
